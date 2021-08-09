@@ -1,0 +1,17 @@
+.quotes-section-main-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .quote-text {
+    color: white;
+    margin: 1.2rem 0;
+    font-size:0.8rem;
+    font-family: 'Shapiro 55 Middle Ext';
+    text-transform: uppercase;
+  }
+  .no-quotes-heading{
+    color:white;
+    margin:3rem 0;
+  }
+}

@@ -1,0 +1,67 @@
+.character-info-main-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height:70vh;
+  padding-top:5rem;
+  padding-left:3rem;
+  .first-section {
+    display: flex;
+    flex-direction: row;
+    .main-image-section {
+      flex: 0.35;
+      .main-image {
+          width:13rem;
+          height:13rem;
+        border-radius: 10px;
+      }
+    }
+    .main-content-section {
+      flex: 0.65;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .main-content{
+          margin:0.7rem 0;
+          color:white;
+          font-size:1.2rem;
+          font-family: 'Shapiro 36 Inclined Text' ;
+          .color-this{
+              font-weight: bold;
+              color:#F4BE20;
+          }
+      }
+    }
+  }
+  .second-section {
+      padding-top:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .main-content{
+        margin:0.7rem 0;
+        color:white;
+        font-size:1.2rem;
+        font-family: 'Shapiro 36 Inclined Text' ;
+        .color-this{
+            font-weight: bold;
+            color:#F4BE20;
+        }
+    }
+  }
+  .button-section {
+    text-align: center;
+    .main-button{
+      border:2px solid #F4BE20;
+      color:#F4BE20;
+      padding:0.4rem 2rem;
+      background:none;
+      transition: 0.5s ease-in-out;
+      &:hover{
+        color:#003638;
+        background-color: #F4BE20;
+        border: none;
+      }
+    }
+  }
+}

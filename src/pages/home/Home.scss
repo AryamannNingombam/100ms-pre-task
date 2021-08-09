@@ -1,0 +1,23 @@
+.home-main-div {
+  background-color: #003638;
+  background: url(../../images/backgrounds/main.jpeg) no-repeat center center
+    fixed;
+
+  background-size: cover;
+  min-height: 100vh;
+  animation: animate_image 0.9s ease-in-out forwards;
+  opacity: 0.6;
+  transition: 0.5s ease-in-out;
+  @keyframes animate_image {
+    from {
+      transform: translateY(50px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+  }
+}

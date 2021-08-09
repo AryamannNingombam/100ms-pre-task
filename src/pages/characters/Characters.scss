@@ -1,0 +1,64 @@
+.characters-main-div {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #003638;
+  display: flex;
+  flex-direction: row;
+  
+  font-family: 'Shapiro 55 Middle Wide';
+  .left-side {
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .back-section {
+      flex: 0.1;
+      display: flex;
+      flex-direction: row;
+      width: 70%;
+
+      justify-content: flex-start;
+      align-items: center;
+      .main-text {
+        color: white;
+        text-decoration: underline;
+        text-underline-offset: 6px;
+        cursor: pointer;
+        transition: 0.4s ease-in-out;
+        &:hover{
+            color:#F4BE20;
+        }
+        
+      }
+    }
+    .crew-list-section {
+      flex: 0.9;
+      padding-top:30px;
+      width:100%;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      .main-heading{
+          color: #F4BE20;
+          font-size:4.5rem;
+      }
+
+    }
+  }
+  .right-side {
+    flex: 0.6;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    .main-logo{
+        margin-top:50px;
+    }
+    .select-heading{
+      margin-top:15rem;
+      color:#F4BE20;
+      font-size:3rem;
+      
+    }
+  }
+}
