@@ -1,10 +1,32 @@
-.crew-list-main-div{
-    width:100%;
-    height:70vh;
-    padding-top:4rem;
-    overflow-y: scroll;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.search-form-control {
+  width: 30rem;
+  border: 2px solid #f5be20;
+  color: #f5be20;
+  background: none;
+  border-radius: 8px;
+  &::placeholder {
+    color: #f5be20;
+    opacity: 0.4;
+  }
+  @media screen and (max-width: 1000px) {
+    width: 25rem;
+    margin:2rem 0;
+  }
+  @media screen and (max-width:450px) {
+    width:17rem;
+    
+  }
+  @media screen and (max-width:300px) {
+    width:13rem;
+  }
+}
 
+.crew-list-main-div {
+  width: 100%;
+  height: 70vh;
+  padding-top: 4rem;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

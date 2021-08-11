@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react'
 import './CharacterDesc.scss'
 import { getCharacterInfo } from '../../services/api.service'
 import { Loader } from '../Loader'
+
+
+
 export const CharacterDesc = ({ id }) => {
   const [characterInfo, setCharacterInfo] = useState(null)
   const [loaded, setLoaded] = useState(false)

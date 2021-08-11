@@ -5,15 +5,19 @@ import { useNavigate } from 'react-router'
 import { CrewList } from '../../components/characters/CrewList'
 import { CharacterInfo } from '../../components/characters/CharacterInfo'
 
+
+
 const Characters = () => {
   const [currentChosenCharacter, setCurrentChosenCharacter] = useState(null)
   const navigate = useNavigate()
+  
 
   const onBackClick = (e) => {
     e.preventDefault()
     navigate('/')
   }
 
+   
 
   return (
     <div className="characters-main-div">

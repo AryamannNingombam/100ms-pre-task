@@ -20,6 +20,14 @@
       border-radius: 100%;
       height: 9rem;
       width: 9rem;
+      @media screen and (max-width: 600px) {
+        height: 7rem;
+        width: 7rem;
+      }
+      @media screen and (max-width: 400px) {
+        height: 5rem;
+        width: 5rem;
+      }
     }
   }
   .right-side {
@@ -29,16 +37,38 @@
     justify-content: center;
     align-items: flex-start;
     padding-left: 50px;
+
     .main-text {
       margin: 0.5rem 0;
-      font-family: 'Shapiro 36 Inclined Text' ;
+      font-family: 'Shapiro 36 Inclined Text';
       color: white;
       font-size: 1rem;
-      
+
       .color-this {
         color: #f4be20;
         font-weight: bold;
       }
+      @media screen and (max-width: 500px) {
+        margin: 0.3rem 0;
+      }
     }
+    @media screen and (max-width: 600px) {
+      .main-text {
+        font-size: 0.9rem;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      .main-text {
+        font-size: 0.7rem;
+      }
+    }
+    @media screen and (max-width: 400px) {
+      .main-text {
+        font-size: 0.6rem;
+      }
+    }
+  }
+  @media screen and (max-width: 500px) {
+    width: 95%;
   }
 }
